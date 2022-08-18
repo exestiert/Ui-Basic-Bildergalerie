@@ -1,0 +1,12 @@
+$primary: #FAF1E6;
+$secondary: #064420;
+$success:  #E4EFE7;
+
+@import "../../Projekte/Bildergalerie/node_modules/bootstrap/scss/bootstrap.scss";
+
+.d-block{
+    object-fit: cover;
+}
+#insekten{
+    object-position: top;
+}
