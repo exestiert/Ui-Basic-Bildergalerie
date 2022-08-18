@@ -1,6 +1,7 @@
 $primary: #FAF1E6;
 $secondary: #064420;
 $success:  #E4EFE7;
+$danger:    #fdfaf6;
 
 @import "../../Projekte/Bildergalerie/node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -9,4 +10,8 @@ $success:  #E4EFE7;
 }
 #insekten{
     object-position: top;
+}
+#text-box{
+    justify-content: center;
+    width: 30%;
 }
