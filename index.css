@@ -10923,17 +10923,34 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.d-block {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-#insekten {
-  -o-object-position: top;
-     object-position: top;
-}
-
 #text-box {
   justify-content: center;
   width: 30%;
+  border-radius: 5%;
+  background-color: rgba(253, 250, 246, 0.5294117647) !important;
+}
+
+@media (max-width: 991px) {
+  #carousel-img {
+    width: 100% !important;
+    height: 100% !important;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (min-width: 992px) {
+  #carousel-img {
+    height: 100vh !important;
+    width: 100vw !important;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    margin: auto 0 !important;
+  }
+  #nav {
+    position: fixed;
+    z-index: 12;
+    width: 100vw;
+  }
 }/*# sourceMappingURL=index.css.map */

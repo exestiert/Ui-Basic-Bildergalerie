@@ -5,13 +5,33 @@ $danger:    #fdfaf6;
 
 @import "../../Projekte/Bildergalerie/node_modules/bootstrap/scss/bootstrap.scss";
 
-.d-block{
-    object-fit: cover;
-}
-#insekten{
-    object-position: top;
-}
+
+
 #text-box{
     justify-content: center;
     width: 30%;
+    border-radius: 5%;
+    background-color: #fdfaf687 !important;
+}
+@media(max-width: 991px){
+    #carousel-img{
+        width: 100% !important;
+        height: 100% !important;
+        object-fit:cover;
+    
+    }
+}
+@media(min-width: 992px){
+    #carousel-img{
+        height: 100vh !important;
+        width: 100vw !important;
+        object-fit:cover;
+        object-position: center;
+        margin:auto 0 !important;
+    }
+    #nav{
+        position: fixed;
+        z-index: 12;
+        width: 100vw;
+    }
 }
