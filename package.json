@@ -4,7 +4,8 @@
   "description": "Layout: https://www.figma.com/file/ZmMXXUEdHnZKDM3GTykGO3/Untitled?node-id=1%3A2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/exestiert/Ui-Basic-Bildergalerie#readme",
   "dependencies": {
     "bootstrap": "^5.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
