@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="index.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="bg-danger">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-primary" id="nav" height="100">
       <div class="container-fluid">
@@ -58,6 +58,7 @@
       </div>
     </nav>
   <!-- CAROUSEL IMG-Slide -->
+  <div id="flex">
   <div
   id="carouselExampleIndicators"
   class="carousel slide vh-auto"
@@ -112,7 +113,7 @@
     </div>
 <!-- SLIDE: IMG 3 -->
     <div class="carousel-item">
-<img src="./img/Carousel/Regentropfen3.jpg" class="d-block " id="carousel-img" style="max-height:100vh;" alt="Grashalm" />
+<img src="./img/Carousel/Regentropfen3.jpg" class="d-block " id="carousel-img" style="max-height:100vh;" alt="Regentropfen auf einem Blatt" />
       <div class="carousel-caption d-none d-lg-block text-center mb-5 px-3 " id="text-box">
         <h2 class="fs-1 fw-normal text-secondary">Natur</h2>
         <p class="text-secondary">Landschafts- und Naturaufnahmen</p>
@@ -126,7 +127,7 @@
       <div class="carousel-caption d-none d-lg-block text-center m-5 px-3" id="text-box">
         <h2 class="fs-1 fw-normal text-secondary">Lensball</h2>
         <p class="text-secondary">Bilder mit meinem Lensball</p>
-        <a href="lensball.html"></a><button type="button" class="btn btn-success fs-2 text-secondary">Browse Gallery</button>
+        <a href="lensball.html"><button type="button" class="btn btn-success fs-2 text-secondary">Browse Gallery</button></a>
       </div>
     </div>
   </div>
@@ -144,13 +145,27 @@
     data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span></button>
+  </div>
+</div>
 
-    <div class="bg-primary w-100"></div>
+<!-- Footer-Mobile -->
+   <footer class="bg-primary d-lg-none "> <div class=" text-center d-none d-sm-flex justify-content-evenly align-items-center w-100 h-100 px-3">
+    <a href="insekten.html">
+    <button type="button" class="btn btn-success text-secondary fs-2" >
+      Insekten
+    </button></a>
+    <a href="amphibien.html"><button type="button" class="btn btn-success text-secondary fs-2">Amphibien
+    </button></a>
+    <a href="natur.html"><button type="button" class="btn btn-success text-secondary fs-2">Natur
+    </button></a>
+    <a href="lensball.html"><button type="button" class="btn btn-success fs-2 text-secondary">Lensball</button></a>
+  </div></footer>
 
     <script
       src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+  
   </body>
 </html>
