@@ -65,6 +65,7 @@ img{
     border: none;
     box-shadow:  20px 20px 60px #c2cbc4,
              -20px -20px 60px #ffffff;
+    cursor: pointer;
 }
 p{
   padding:10%;
