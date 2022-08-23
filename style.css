@@ -57,11 +57,14 @@ img{
     object-position: left;
 }
 .home-button{
-    width: 200%;
+    width: 250%;
     color:#064420;
     background-color: #E4EFE7;
     text-align: center;
-    border-radius: 8%;
+    border-radius: 10px;
+    border: none;
+    box-shadow:  20px 20px 60px #c2cbc4,
+             -20px -20px 60px #ffffff;
 }
 p{
   padding:10%;

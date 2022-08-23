@@ -26,6 +26,11 @@ $danger:    #fdfaf6;
     nav{
         grid-area: nav;
     }
+    #nav{
+        position: fixed;
+        z-index: 12;
+        width: 100vw;
+    }
     footer{
         grid-area: footer;
 
