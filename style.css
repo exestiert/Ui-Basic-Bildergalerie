@@ -67,9 +67,6 @@ img{
     height: 100%;
     object-fit: cover;
 }
-#img8{
-    object-position: left;
-}
 .home-button{
     width: 250%;
     color:#064420;
